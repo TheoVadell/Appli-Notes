@@ -36,22 +36,23 @@ h1 {
 }
 
 button {
-  border-radius: 8px;
-  border: 1px solid transparent;
+  border-radius: 5px;
   padding: 0.5em 1em;
   margin-bottom: 15px;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+  border: solid 2px black;
+  color: black;
 }
 
-.compteur {
+.Compteur {
   font-weight: 700;
-  font-size: 20px;
+  font-size: 18px;
 }
+
 
 input {
   width: 80%;
@@ -62,7 +63,7 @@ input {
 }
 
 button:hover {
-  border-color: #646cff;
+  border-color: #000000;
 }
 button:focus,
 button:focus-visible {
