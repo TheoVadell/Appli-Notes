@@ -17,8 +17,8 @@ export default function App() {
   // Initialisation de l'état des notes avec useState
   const [notes, setNote] = useState([
     { id: 1, text: "première note"},
-    { id: 1, text: "deuxième note"},
-    { id: 1, text: "troisème note"}
+    { id: 2, text: "deuxième note"},
+    { id: 3, text: "troisème note"}
   ]);
 
   // Gestionnaire de suppression de note
@@ -35,7 +35,7 @@ export default function App() {
     <>
       <h1>Application Note</h1>
       {/* Composant Counteur */}
-      <Counteur />
+      <Counteur count={notes.length} />
       {/* Composant AddNoteForm */}
       <AddNoteForm />
       {/* Composant Filter */}

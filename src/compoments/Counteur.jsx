@@ -1,5 +1,7 @@
-export default function Compteur() {
+import React from 'react';
+
+export default function Counteur({ count }) {
     return (
-      <p>Mon Compteur :</p>
+        <p>Nombre de notes : {count}</p>
     );
-  }
+}
